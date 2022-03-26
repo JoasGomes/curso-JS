@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+:root{
+    --primary-color:  rgb(6, 93, 175);
+    --primary-color-darker:  blue
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'open sans',sans-serif;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+.paragrafos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+p{
+    margin: 0;
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+form button{
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form button:hover{
+    background: var(--primary-color-darker);
+}
+.paragrafo-resultado, .bad{
+    background: rgb(89, 240, 134);
+    padding: 10px 20px;
+}
+.bad{
+    background: rgb(226, 73, 73);
+}

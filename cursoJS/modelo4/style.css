@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/modelo4/slanted-gradient.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.tudo{
+    max-width: 900px;
+    margin-left: 550px;
+    margin-top: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.575);
+}
+.meuTimer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(104, 72, 72);
+    font-size: 50px;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    text-shadow: 1px 1px rgb(68, 68, 68);
+}
+.corpoRelogio{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(82, 58, 58);
+}
+.relogio{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(82, 58, 58);
+    height: 30px;
+}
+.iniciar{
+    width: 75px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+.pausar{
+    width: 75px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+.reiniciar{
+    width: 75px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+}
+.pausado{
+    color: red;
+}

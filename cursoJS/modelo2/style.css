@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+:root{
+    --primary-color:  rgb(6, 93, 175);
+    --primary-color-darker:  blue
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(/modelo2/abstract-envelope.svg);
+    font-family: 'open sans',sans-serif;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+.container{
+    min-width: 640px;
+    margin-top: 210px;
+    margin-left: 640px;
+    background:linear-gradient(white,gray);
+    padding: 20px;
+    border-radius: 20px;
+}
+.calculadora{
+    width: 400px;
+}
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #b6b6b6;
+}
+.btn-eq{
+    background-color: rgb(134, 209, 134);
+}
+.btn-eq:hover{
+    background-color: rgb(68, 207, 68);
+}
